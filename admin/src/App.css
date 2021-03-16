@@ -1,0 +1,45 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.form input{
+    width: 50%;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 20px;
+}
+.form textarea{
+    width: 50%;
+    height: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+  }
+  table button{
+    padding:15px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
